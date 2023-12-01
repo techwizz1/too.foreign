@@ -108,4 +108,83 @@ body {
 .img-darken{
     transition: 1s;
     filter: brightness(10%);
+
+}
+
+/*contact*/
+.contact{
+    width:100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-content{
+    width: 50%;
+    height: 10rem;
+    display: flex;
+}
+
+.content-left{
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 2rem 0 0 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+.content-left h2{
+    width: 80%;
+    font-size:x-large;
+    color: #696868d0;
+    line-height: 1.4;
+}
+
+.content-left span{
+    font-size:large;
+    color: black;
+}
+
+.content-right{
+    width: 60%;
+    height: 100%;
+    background-color: #696868d0;
+    border-radius: 0 2rem 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right input{
+    width: 25rem;
+    height: 0rem;
+    background-color: black;
+    padding: 2rem;
+    border: none;
+    border-radius: .5rem;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.content-right input::placeholder{
+    color: #fff;
+    font-size:medium;
+}
+
+.content-right input:focus{
+    border: .1rem solid #f8872b
+}
+
+.content-right button{
+    width: 11rem;
+    height: 2rem;
+    background-color:#06f426;
+    border: none;
+    border-radius: 3rem;
+    font-size:medium;
+    color: #fff;
+    cursor: cell;
 }
